@@ -29,15 +29,3 @@ This repository is designed to systematically compare AI trading robot prototype
 3. **Standardize:** Export key metrics into clean data sheets inside `/data/processed`.
 4. **Analyze:** Trigger AI agents in `/agents` to evaluate the new data sheets against historical baselines.
 5. **Iterate:** Document findings, update the hypothesis status, and incorporate external research from `/research` into the next cycle.
-
-## Initial Commit Setup
-
-If you are initializing this locally, you can set up the base structure with:
-
-\`\`\`bash
-mkdir -p data/raw data/processed experiments hypotheses agents research notebooks
-touch README.md .gitignore
-git init
-git add .
-git commit -m "chore: initialize P1-vs-P2 repository structure and documentation"
-\`\`\`
