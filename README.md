@@ -13,8 +13,6 @@ This repository is designed to systematically compare AI trading robot prototype
 * **Automated Data Analysis:** Utilize AI agents to parse trade logs, detect anomalies, and generate performance summaries.
 * **External Research Synthesis:** Aggregate and organize findings from academic papers, open-source projects, and quantitative trading literature.
 
-## Repository Structure
-
 ## Repository Structure & Category Breakdown
 
 ### 1. `/data` — Trade Logs & Standardized Metrics
