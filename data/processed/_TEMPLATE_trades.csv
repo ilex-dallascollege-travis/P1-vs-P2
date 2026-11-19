@@ -1,0 +1,2 @@
+experiment_id,bot_id,trade_id,timestamp_open,timestamp_close,asset,side,entry_price,exit_price,position_size_usd,pnl_usd,pnl_pct,signal_trigger,market_regime,notes
+EXP-001,P1,T-0001,2026-01-15T09:30:00Z,2026-01-15T14:15:00Z,AAPL,LONG,225.50,228.00,1000.00,11.09,1.11,news_sentiment_spike,bull,Clean entry on earnings news
