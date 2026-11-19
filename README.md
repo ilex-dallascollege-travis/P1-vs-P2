@@ -1,7 +1,7 @@
 # P1-vs-P2
 This repo is desgined to compare ai trading robots, compiling hypothesis, continuing experiments, data sheets, ai agents to analyze data, and gather information from others research
 
-# P1-vs-P2: AI Trading Robot Comparative Analysis & Research Hub
+# AI Trading Robot Comparative Analysis & Research Hub
 
 This repository is designed to systematically compare AI trading robot prototypes (Prototype 1 vs. Prototype 2). It serves as a centralized workspace for compiling hypotheses, running ongoing experiments, storing performance data sheets, deploying AI analysis agents, and synthesizing external market research.
 
