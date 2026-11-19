@@ -1,28 +1,22 @@
-# Experiment: EXP-000
+# HYP-000: [Short Descriptive Title]
 
-* **Date Run:** YYYY-MM-DD
-* **Linked Hypothesis:** `HYP-000`
-* **Market Regime:** `[Bull | Bear | Sideways | High Volatility]`
+* **Status:** `[Draft | Active | Validated | Invalidated | Inconclusive]`
+* **Date Created:** YYYY-MM-DD
+* **Target Comparison:** P1 vs. P2
+* **Related Experiment(s):** `exp-001`
 
-## Configuration Summary
+## 1. Core Statement
+> **If** [we apply X condition/parameter/data source], **then** [P2 will outperform P1 on Y metric], **because** [theoretical reasoning].
 
-| Parameter | Prototype 1 (P1) | Prototype 2 (P2) |
-| :--- | :--- | :--- |
-| **Model / Architecture** | e.g., Baseline v1.2 | e.g., Sentiment-Weighted v2.0 |
-| **Data Window** | YYYY-MM-DD to YYYY-MM-DD | YYYY-MM-DD to YYYY-MM-DD |
-| **Starting Balance** | $10,000 | $10,000 |
-| **Max Position Size** | 10% | 10% |
+## 2. Variables & Controls
+* **Independent Variable (What changes):** e.g., Weighting of news sentiment vs. politician trade signals.
+* **Dependent Variables (Metrics tracked):** e.g., Sharpe ratio, max drawdown, win rate, net return.
+* **Control Constants (Identical for both):** e.g., Starting capital ($10,000), timeframe (2025-01-01 to 2025-06-01), asset universe.
 
-## High-Level Metrics Comparison
+## 3. Success Criteria
+* Define the exact numerical threshold needed to validate this hypothesis (e.g., *P2 achieves a 15% higher Sharpe ratio with lower drawdown than P1*).
 
-| Metric | P1 Result | P2 Result | Delta (P2 - P1) |
-| :--- | :--- | :--- | :--- |
-| **Net Profit (%)** | 0.00% | 0.00% | 0.00% |
-| **Win Rate (%)** | 0.00% | 0.00% | 0.00% |
-| **Max Drawdown (%)** | 0.00% | 0.00% | 0.00% |
-| **Sharpe Ratio** | 0.00 | 0.00 | 0.00 |
-| **Total Trades** | 0 | 0 | 0 |
+## 4. Results & Conclusion
+* **Outcome Summary:** (Fill in after experiment completion)
+* **Next Steps:** (What to test next based on these findings)
 
-## Key Observations & Anomalies
-* Note any unexpected execution delays, API rate limits, or edge-case trades here.
-* Reference processed data sheet: `../../data/processed/exp-000-summary.csv`
